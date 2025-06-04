@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comic+Relief:wght@400;700&display=swap');
+
+:root {
+    --cor-principal: #444444;
+    --cor-secundaria: #333333;
+    --cor-destaque: #4b75ff;
+}
+
+body, body * {
+    font-family: "Comic Relief", system-ui;
+    color: var(--cor-principal);
+}
+
+h1, h2, h5 {
+    font-family: "Bebas Neue", sans-serif;
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead, .btn-Link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a, .btn-Link:hover {
+    color: var(--cor-principal);
+}
+
+a:hover {
+    color: var(--cor-destaque);
+}
